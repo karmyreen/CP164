@@ -1,0 +1,144 @@
+"""
+-------------------------------------------------------
+Lab  Testing
+-------------------------------------------------------
+Author:  Gurkarman Reen
+ID:      169030008
+Email:   reen0008@mylaurier.ca
+Version: 2023-01-20
+-------------------------------------------------------
+"""
+-------------------------------------------------------
+t01
+-------------------------------------------------------
+romance, comedy, zombie, horror
+
+science fiction, fantasy, drama, mystery
+
+fantasy, comedy, zombie, war
+-------------------------------------------------------
+t02
+-------------------------------------------------------
+3,4,5,8
+
+7,2,1,9
+
+1,2,3,4
+-------------------------------------------------------
+t03
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+-------------------------------------------------------
+t04
+-------------------------------------------------------
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (ENTER to quit): 1
+Enter a genre number (ENTER to quit): 2
+Enter a genre number (ENTER to quit): 3
+Enter a genre number (ENTER to quit): -1
+Error: not a positive number
+Enter a genre number (ENTER to quit): bob
+Error: not a positive number
+Enter a genre number (ENTER to quit): 
+[1, 2, 3]
+
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (ENTER to quit): 
+Error: must have at least one genre
+Enter a genre number (ENTER to quit): 1
+Enter a genre number (ENTER to quit): -1
+Error: not a positive number
+Enter a genre number (ENTER to quit): bob
+Error: not a positive number
+Enter a genre number (ENTER to quit): 11
+Error: input must be <= 10
+Enter a genre number (ENTER to quit): 
+[1]
+
+-------------------------------------------------------
+t05
+-------------------------------------------------------
+Here is title: Dunkirk 
+Here is year of release:  2019
+Here is director:  Chris Nolan 
+Here is rating:  8.7
+Genres
+ 0 science fiction
+ 1 fantasy
+ 2 drama
+ 3 romance
+ 4 comedy
+ 5 zombie
+ 6 action
+ 7 historical
+ 8 horror
+ 9 war
+10 mystery
+
+Enter a genre number (ENTER to quit): 9
+Enter a genre number (ENTER to quit): 2
+Enter a genre number (ENTER to quit): 6
+Enter a genre number (ENTER to quit): 
+Title:    Dunkirk 
+Year:     2019
+Director:  Chris Nolan 
+Rating:   8.7
+Genres:   drama, action, war
+-------------------------------------------------------
+t06
+-------------------------------------------------------
+Title:    Dellamorte Dellamore
+Year:     1994
+Director: Michele Soavi
+Rating:   7.2
+Genres:   romance, comedy, zombie, horror
+
+Title:    I Am Legend
+Year:     2007
+Director: Francis Lawrence
+Rating:   7.1
+Genres:   science fiction, action
+
+
+
+-------------------------------------------------------
+t07
+-------------------------------------------------------
+
+
